@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/viewport.css"],"sourcesContent":["@viewport {\n  width: device-width;\n  initial-scale: 1;\n  maximum-scale: 1;\n  user-scalable: no;\n}\n\n/* Ensure proper viewport height on mobile */\n@supports (-webkit-touch-callout: none) {\n  .min-h-screen {\n    min-height: -webkit-fill-available;\n  }\n}\n\n/* Better touch feedback */\n@media (hover: none) {\n  .active\\:scale-95:active {\n    transform: scale(0.95);\n  }\n  \n  .active\\:opacity-70:active {\n    opacity: 0.7;\n  }\n}\n\n/* Prevent text selection on interactive elements */\n.no-select {\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  user-select: none;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAQA;EACE;;;;;AAMF;EACE;;;;EAIA;;;;;AAMF"}}]
+}
