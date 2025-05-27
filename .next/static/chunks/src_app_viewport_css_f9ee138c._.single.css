@@ -1,0 +1,31 @@
+/* [project]/src/app/viewport.css [app-client] (css) */
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+  maximum-scale: 1;
+  user-scalable: no;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+@media (hover: none) {
+  .active\:scale-95:active {
+    transform: scale(.95);
+  }
+
+  .active\:opacity-70:active {
+    opacity: .7;
+  }
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/*# sourceMappingURL=src_app_viewport_css_f9ee138c._.single.css.map*/
